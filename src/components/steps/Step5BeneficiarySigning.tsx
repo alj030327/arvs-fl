@@ -87,7 +87,7 @@ export const Step5BeneficiarySigning = ({
           });
         }
       }
-    }, 8000); // Check every 8 seconds
+    }, 3000); // Check every 3 seconds
 
     return () => clearInterval(interval);
   }, [heirs, setHeirs, toast]);
