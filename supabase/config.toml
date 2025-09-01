@@ -15,3 +15,9 @@ verify_jwt = false
 
 [functions.mock-bankid]
 verify_jwt = false
+
+[functions.get-signing-request]
+verify_jwt = false
+
+[functions.update-signing-request]
+verify_jwt = false
